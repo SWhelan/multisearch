@@ -1,0 +1,27 @@
+{
+  "manifest_version": 5,
+
+  "name": "MultiSearch",
+  "description": "This extension opens the top 5 search results of google in new tabs.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "Top 5 searches"
+  },
+  
+  "background" : {
+  	"scripts" : ["click.js"],
+  	"persistent" : false
+  }, 
+  
+  "permissions": [
+    "activeTab"
+  ],
+  
+  "icons": { 
+  	"16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
