@@ -1,5 +1,5 @@
 {
-  "manifest_version": 5,
+  "manifest_version": 2,
 
   "name": "MultiSearch",
   "description": "This extension opens the top 5 search results of google in new tabs.",
